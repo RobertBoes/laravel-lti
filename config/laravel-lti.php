@@ -3,6 +3,7 @@
 return [
 
     'database' => [
+        'connection' => '',
         'prefix' => ''
     ]
 

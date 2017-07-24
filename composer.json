@@ -21,5 +21,12 @@
     "psr-4": {
       "RobertBoes\\LaravelLti\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RobertBoes\\LaravelLti\\ServiceProvider"
+      ],
+    }
   }
 }

@@ -15,6 +15,8 @@
   ],
   "require": {
     "php": "^7.0",
+    "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+    "Illuminate/Database": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
     "imsglobal/lti": "3.0.2"
   },
   "autoload": {
@@ -27,6 +29,9 @@
       "providers": [
         "RobertBoes\\LaravelLti\\ServiceProvider"
       ],
+      "aliases": {
+        "LTI": "RobertBoes\\LaravelLti\\Facade"
+      }
     }
   }
 }

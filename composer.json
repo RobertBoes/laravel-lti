@@ -1,0 +1,25 @@
+{
+  "name": "RobertBoes/LaravelLti",
+  "description": "A Laravel implementation for the LTI Tool Provider Library",
+  "keywords": [
+    "lti", "imsglobal"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robert Boes",
+      "email": "robert@boes.io",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "imsglobal/lti": "3.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "RobertBoes\\LaravelLti\\": "src/"
+    }
+  }
+}

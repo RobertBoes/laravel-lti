@@ -9,7 +9,7 @@ class ServiceProvider extends IlluminateServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/laravel-lti.php' => config_path('laravel-backup.php'),
+            __DIR__.'/../config/laravel-lti.php' => config_path('laravel-lti.php'),
         ], 'config');
 
         $this->publishes([

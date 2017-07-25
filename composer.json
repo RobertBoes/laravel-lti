@@ -1,10 +1,9 @@
 {
-  "name": "RobertBoes/LaravelLti",
+  "name": "robertboes/laravel-lti",
   "description": "A Laravel implementation for the LTI Tool Provider Library",
   "keywords": [
     "lti", "imsglobal"
   ],
-  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {

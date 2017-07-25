@@ -12,7 +12,9 @@ class ServiceProvider extends IlluminateServiceProvider
             __DIR__.'/../config/laravel-lti.php' => config_path('laravel-backup.php'),
         ], 'config');
 
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->publishes([
+            __DIR__.'/../database/migrations/' => database_path('/migrations'),
+        ],'migrations');
     }
 
     public function register()

@@ -27,7 +27,7 @@ class LTI
     public function __construct()
     {
         $db = DB::connection(config('laravel-lti.database.connection'))->getPdo();
-        $this->data_connector = DataConnector::getDataConnector(config('laravel-lti.database.prefix'), $db);
+        $this->data_connector = DataConnector::getDataConnector(config('laravel-lti.database.prefix'), $db, 'pdo');
     }
 
     public function getDataConnector() {

@@ -19,6 +19,8 @@ class ServiceProvider extends IlluminateServiceProvider
 
     public function register()
     {
-
+        $this->commands([
+            \RobertBoes\LaravelLti\Commands\CreateToolConsumerCommand::class
+        ]);
     }
 }

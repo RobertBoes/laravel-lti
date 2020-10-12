@@ -13,11 +13,11 @@
     }
   ],
   "require": {
-    "php": "^7.0",
-    "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-    "Illuminate/Database": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-    "illuminate/console": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-    "imsglobal/lti": "3.0.2"
+    "php": "^7.2",
+    "illuminate/support": "6.*|7.*|8.*",
+    "Illuminate/Database": "6.*|7.*|8.*",
+    "illuminate/console": "6.*|7.*|8.*",
+    "imsglobal/lti-1p3-tool": "dev-master"
   },
   "autoload": {
     "psr-4": {
